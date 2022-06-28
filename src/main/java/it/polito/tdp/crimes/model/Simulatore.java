@@ -101,7 +101,7 @@ public class Simulatore {
 				}
 				this.queue.add(new Evento(ora.plusHours(permanenza), a, caso, EventType.FINE_GESTIONE));
 			}else {
-				long permanenza = 1;
+				long permanenza = 2;
 				this.queue.add(new Evento(ora.plusHours(permanenza), a, caso, EventType.FINE_GESTIONE));
 			}
 			
